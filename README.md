@@ -71,24 +71,30 @@ To effectively employ the MatnTracker tool, follow these steps:
      - CSV2: In this file, place all Matn IDs in the first row, and set text file names as column headers. This file will be used for reference.
      - Folder: the target corpus of cleaned plain text files in one folder
 3. Load Input Files: Load your CSV1 file at the specified input_csv_path.
-<img src="images/CSV1_Path.png" width="500" alt="Change CVS1 path here">
+<img src="images/CSV1_Path.png" width="400" alt="Change CVS1 path here">
 ![Change CVS1 path here](images/CSV1_Path.png)
-5. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
+4. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
+<img src="images/Target_Directory.png" width="400" alt="Change directory path here">
 ![Change directory path here](images/Target_Directory.png)
-6. DataFrame Initialization: Initialize a DataFrame with headers from CSV2 and populate it based on the provided dictionary of headers.
+5. DataFrame Initialization: Initialize a DataFrame with headers from CSV2 and populate it based on the provided dictionary of headers.
+<img src="images/CSV3_Path.png" width="400" alt="Change CVS2 path here">
 ![Change CVS2 path here](images/CSV3_Path.png)
-7. Configure Output Paths: Customize the output file paths according to your preferences:
+6. Configure Output Paths: Customize the output file paths according to your preferences:
    - Adjust the paths for
      1. result_df.to_csv, result
+      <img src="images/Output1_Path.png" width="400" alt="Change Output1 path here">
       ![Change Output1 path here](images/Output1_Path.png)
      2. 2_csv_path
+      <img src="images/Output2_Path.png" width="400" alt="Change Output2 path here">
       ![Change Output2 path here](images/Output2_Path.png)
      3. output_csv_path
+      <img src="images/Output3_Path.png" width="400" alt="Change Output3 path here">
       ![Change Output3 path here](images/Output3_Path.png)
      4. sorted_output_csv_path
+      <img src="images/Output4_Path.png" width="400" alt="Change Output4 path here">
       ![Change Output4 path here](images/Output4_Path.png)
      to specify your desired locations for output files.
-8. Run the notebook cell by cell.
+7. Run the notebook cell by cell.
 
 ## Data
 The text files that represent the target texts for this study were downloaded from the OpenITI, a corpus of digital Islamicate texts. The latest release of OpenITI contains 10,202 text files, each of which contains the full text of a work (whether it is a single-volume or multi-volume work). For some works, the corpus contains multiple versions (digitizations of distinct paper editions, distinct digitizations of the same edition, identical digitizations of the same edition). The 10,202 text files represent 6,236 distinct works, by 2,582 distinct authors.
