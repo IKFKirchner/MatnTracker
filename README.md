@@ -24,6 +24,8 @@ A hadith is structured into two essential components:
 In the genres of hadith literature, a hadith is frequently commented on by the scholars in a third part:
 1. The Ruling (Ḥukm): Here, scholars assess the soundness of the transmitter chain, identify weak or missing links, provide their judgment regarding the overall authenticity of the hadith, and reference other scholars' opinions and rulings.
 
+![Hadith=Isnad+Matn+Hukm](images/WhatIsAHadith.png)
+
 ## My Project: Measuring textual authenticity: A computational study of Ibn al-Jawzī’s (d. 1201) Book of Forgeries (Kitāb al-Mawḍūʿāt)
 This GitHub repository is a part of my dissertation project and focuses on a specialized area of hadith scholarship—hadith forgeries. Specifically, it examines the most comprehensive and arguably most famous forgery collection in Islamic history, the Kitāb al-Mawḍūʿāt by the 12th-century scholar Ibn al-Jawzī. Its central objective is to track the evolution of forgery collections (Mawḍūʿāt) as a genre of hadith literature and map the transmission and circulation history of individual forgeries.
 
@@ -43,7 +45,7 @@ The code generates four output files:
 4. a CSV file organizing the output into a matrix format, where rows represent Matn IDs, columns denote text file names (books), and each cell signifies the count of matches.
 Furthermore, the code generates a heatmap image of this matrix, to provide an easy visual overview of the collected data.
 
-![Example Heatmap](link_to_image)
+![Example Heatmap](images/Heatmap.png)
 
 The heatmap image can be saved via a right-click on the image.
 
@@ -68,24 +70,30 @@ To effectively employ the MatnTracker tool, follow these steps:
    - Ensure you have the following files ready:
      - CSV1: This file should contain two columns. The first column should consist of unique Matn IDs, while the second column should contain the corresponding Matn sections, which contain the reports to be tracked.
      - CSV2: In this file, place all Matn IDs in the first row, and set text file names as column headers. This file will be used for reference.
-     - CSV3: file of Matn IDs and file names of text files.
      - Folder: the target corpus of cleaned plain text files in one folder
 3. Load Input Files: Load your CSV1 file at the specified input_csv_path.
+![Change CVS1 path here](images/CSV1_Path.png)
 4. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
-5. DataFrame Initialization: Initialize a DataFrame with headers from file "B" and populate it based on the provided dictionary of headers.
+![Change directory path here](images/Target_Directory.png)
+5. DataFrame Initialization: Initialize a DataFrame with headers from CSV2 and populate it based on the provided dictionary of headers.
+![Change CVS2 path here](images/CSV3_Path.png)
 6. Configure Output Paths: Customize the output file paths according to your preferences:
    - Adjust the paths for
      1. result_df.to_csv, result
+      ![Change Output1 path here](images/Output1_Path.png)
      2. 2_csv_path
+      ![Change Output2 path here](images/Output2_Path.png)
      3. output_csv_path
+      ![Change Output3 path here](images/Output3_Path.png)
      4. sorted_output_csv_path
+      ![Change Output4 path here](images/Output4_Path.png)
      to specify your desired locations for output files.
 7. Run the notebook cell by cell.
 
 ## Data
 The text files that represent the target texts for this study were downloaded from the OpenITI, a corpus of digital Islamicate texts. The latest release of OpenITI contains 10,202 text files, each of which contains the full text of a work (whether it is a single-volume or multi-volume work). For some works, the corpus contains multiple versions (digitizations of distinct paper editions, distinct digitizations of the same edition, identical digitizations of the same edition). The 10,202 text files represent 6,236 distinct works, by 2,582 distinct authors.
 
-![OpenITI Example](link_to_image)
+![OpenITI corpus](images/OpenITI.png)
 
 
 ## Feedback
