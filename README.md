@@ -46,6 +46,7 @@ The code generates four output files:
 Furthermore, the code generates a heatmap image of this matrix, to provide an easy visual overview of the collected data.
 
 ![Example Heatmap](images/Heatmap.png)
+
 The heatmap can be saved via a right-click on the image.
 
 ## Installation
