@@ -127,9 +127,9 @@ The OpenITI team, specifically Sarah Bowen Savant and Ryan Muthers, have also ge
 The ReadITI notebook used in the preprocessing of the input files was programmed by my much-valued colleague and friend, Maroussia B.
 
 ## References
-- [RipGrep](https://github.com/BurntSushi/ripgrep): You will find RipGrep original code on GitHub.
+- [RipGrep](https://github.com/BurntSushi/ripgrep): The RipGrep original code is on GitHub.
 - [Ripgrepy](https://github.com/securisec/ripgrepy): The implementation of RipGrep for Python can also be found on GitHub.
 - [Ripgrepy Documentation](https://ripgrepy.readthedocs.io/en/latest/): Its documentation is available on ReadTheDocs.
 - [OpenITI](https://zenodo.org/record/6808108): Nigst, Lorenz, Romanov, Maxim, Savant, Sarah Bowen, Seydi, Masoumeh, & Verkinderen, Peter. (2022). OpenITI: a Machine-Readable Corpus of Islamicate Texts (2022.1.6) [Data set]. Zenodo.
 - [OpenITI](https://github.com/OpenITI): The OpenITI corpus is also on GitHub.
-- [ReadITI](https://github.com/Maroussia/readiti): You will find the ReadITI original code on GitHub. 
+- [ReadITI](https://github.com/Maroussia/readiti): The ReadITI original code is on GitHub. 
