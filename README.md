@@ -15,7 +15,7 @@
 ## Short Description
 MatnTracker is a Jupyter Notebook created by Irene K.F. Kirchner as part of a broader academic project aimed at mapping the transmission and circulation history of hadith forgeries within Islamic literature. This tool tracks prophetic reports (hadith) within a corpus of historical works, enabling users to visualize where these reports reappear.
 
-### Historical Background: What is a hadith?
+## Historical Background: What is a hadith?
 In the Islamic tradition, a hadith is a report that records the actions, sayings, or approvals of the Prophet Muhammad serving as a guide for Muslims in matters of faith, ethics, jurisprudence, and daily conduct. As the Quran only provides limited textual source material, the corpus of prophetic reports gradually gained tremendous significance as the main scriptural source in the Islamic tradition. With the death of the last companions of the Prophet, forgeries surged as they presented a unique opportunity to salvage the authoritative and spiritual power of the Prophet to forward political, legal, and social interests. Consequentially, it became established practice to insist on the transmission not only of the report itself but also of its chain of transmission. This practice enabled a complex scholarly engagement with prophetic reports that motivated one of the most prolific textual productions in history. Over centuries, Muslim scholars produced a vast body of hadith literature that documented biographical data on the transmitters of each prophetic report, the details of transmission, the historical context of the transmission and the transmitters as well as collections of authenticated reports and collections of forgeries.
 
 A hadith is structured into two essential components:
@@ -26,7 +26,7 @@ In the genres of hadith literature, a hadith is frequently commented on by the s
 
 ![Hadith=Isnad+Matn+Hukm](images/WhatIsAHadith.png)
 
-## My Project: Measuring textual authenticity: A computational study of Ibn al-Jawzī’s (d. 1201) Book of Forgeries (Kitāb al-Mawḍūʿāt)
+## My Project: Measuring textual authenticity
 This GitHub repository is a part of my dissertation project and focuses on a specialized area of hadith scholarship—hadith forgeries. Specifically, it examines the most comprehensive and arguably most famous forgery collection in Islamic history, the Kitāb al-Mawḍūʿāt by the 12th-century scholar Ibn al-Jawzī. Its central objective is to track the evolution of forgery collections (Mawḍūʿāt) as a genre of hadith literature and map the transmission and circulation history of individual forgeries.
 
 The notebook measures the textual overlap between Ibn al-Jawzī's collection and other Mawḍūʿāt collections compiled from the late 11th century to the end of the 19th century. Additionally, it tracks the extent of overlap between Ibn al-Jawzī's work and earlier works in related genres of ḥadīth literature, such as transmitter criticism (kutub al-ḍuʿafāʾ) and collections of defective ḥadīth (ʿilal al-ḥadīth). By tracing and quantifying these overlaps, the project endeavors to map the historical transmission and circulation of hadith forgeries and unravel the evolving construction of the Mawḍūʿāt genre, from the 11th century onwards.
@@ -61,7 +61,7 @@ Then, start a Jupyter Notebook server by running the following command in your t
    ```bash
    jupyter notebook MatnTracker.ipynb
 
-  ## Usage
+## Usage
 To effectively employ the MatnTracker tool, follow these steps:
 
 1. Download the notebook (see installation guide).
