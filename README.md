@@ -75,13 +75,40 @@ To effectively employ the MatnTracker tool, follow these steps:
    # Load your CSV file
    input_csv_path = 'CSV1/Input/Path/filename.csv'
 4. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
+   ```bash
+   txt_files_directory = 'Path/To/Your/Target/Texts/Folder'
+
+   df = pd.read_csv(result2_csv_path, encoding='utf-8')
 5. DataFrame Initialization: Initialize a DataFrame with headers from CSV2 and populate it based on the provided dictionary of headers.
+   ```bash
+   # Initialize a dataframe with headers from CSV2 file and fill it based on the dictionary
+   headers = pd.read_csv('Dataframe/Path/with/MatnIDs/And/TextFileNames').columns[1:]
+   sorted_output_df = pd.DataFrame(columns=headers)
 6. Configure Output Paths: Customize the output file paths according to your preferences:
    - Adjust the paths for
-     1. result_df.to_csv, result
-     2. 2result_csv_path
-     3. output_csv_path
-     4. sorted_output_csv_path
+   1. result_df.to_csv, result
+      ```bash
+      # Create outputFile1 with Matn_ID, Matn, 4-grams, 4-grams_Frequencies, Keygram, Keyword for checking
+      # Change file path to your desired path
+      result_df.to_csv('Output1/File/Path/filename.csv', index=False)
+   2. result2_csv_path
+      ```bash
+      # Create OutputFile2 with only Matn_ID, Matn, Keygram, and Keyword columns
+      selected_columns = ['Matn_ID', 'Matn', 'Keygram', 'Keyword']
+      result2_df = result_df[selected_columns]
+      # Change file path to your desired path
+      result2_csv_path = 'Output2/File/Path/filename.csv'
+      result2_df.to_csv(result2_csv_path, index=False, encoding='utf-8')
+   3. output_csv_path
+      ```bash
+      output_df = pd.DataFrame(results, columns=['Matn_ID', 'SearchedString', 'FullText', 'LineFound', 'FilePath'])
+      output_csv_path = 'Output3/File/Path/filename.csv'
+      output_df.to_csv(output_csv_path, index=False, encoding='utf-8')
+   4. sorted_output_csv_path
+      ```bash
+      # Save the resulting dataframe to an output CSV file
+      sorted_output_csv_path = 'Output4/File/Path/filename.csv'
+      sorted_output_df.to_csv(sorted_output_csv_path, index=False, encoding='utf-8')     
      to specify your desired locations for output files.
 7. Run the notebook cell by cell.
 
