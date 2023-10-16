@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Short Description](#short-description)
 - [Historical Background: What is a hadith?](#historical-background-what-is-a-hadith)
-- [My Project: Measuring textual authenticity](#my-project-measuring-textual-authenticity)
+- [The Project: Measuring textual authenticity](#the-project-measuring-textual-authenticity)
 - [Methodology and Code Description](#methodology-and-code-description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,7 +26,7 @@ In the genres of hadith literature, a hadith is frequently commented on by the s
 
 ![Hadith=Isnad+Matn+Hukm](images/WhatIsAHadith.png)
 
-## My Project: Measuring textual authenticity
+## The Project: Measuring textual authenticity
 This GitHub repository is a part of my dissertation project and focuses on a specialized area of hadith scholarship—hadith forgeries. Specifically, it examines the most comprehensive and arguably most famous forgery collection in Islamic history, the Kitāb al-Mawḍūʿāt by the 12th-century scholar Ibn al-Jawzī. Its central objective is to track the evolution of forgery collections (Mawḍūʿāt) as a genre of hadith literature and map the transmission and circulation history of individual forgeries.
 
 The notebook measures the textual overlap between Ibn al-Jawzī's collection and other Mawḍūʿāt collections compiled from the late 11th century to the end of the 19th century. Additionally, it tracks the extent of overlap between Ibn al-Jawzī's work and earlier works in related genres of ḥadīth literature, such as transmitter criticism (kutub al-ḍuʿafāʾ) and collections of defective ḥadīth (ʿilal al-ḥadīth). By tracing and quantifying these overlaps, the project endeavors to map the historical transmission and circulation of hadith forgeries and unravel the evolving construction of the Mawḍūʿāt genre, from the 11th century onwards.
