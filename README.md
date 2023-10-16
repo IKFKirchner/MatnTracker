@@ -24,6 +24,10 @@ A hadith is structured into two essential components:
 In the genres of hadith literature, a hadith is frequently commented on by the scholars in a third part:
 1. The Ruling (Ḥukm): Here, scholars assess the soundness of the transmitter chain, identify weak or missing links, provide their judgment regarding the overall authenticity of the hadith, and reference other scholars' opinions and rulings.
 
+<div style="max-width: 75%;">
+  <img src="images/WhatIsAHadith.png" alt="Hadith=Isnad+Matn+Hukm" style="width: 100%;">
+</div>
+
 ![Hadith=Isnad+Matn+Hukm](images/WhatIsAHadith.png)
 
 ## My Project: Measuring textual authenticity: A computational study of Ibn al-Jawzī’s (d. 1201) Book of Forgeries (Kitāb al-Mawḍūʿāt)
@@ -44,6 +48,10 @@ The code generates four output files:
 3. a CSV file encompassing Matn IDs, Searched String, Full Text, Line Found, and File Path, listing all matches with Line Found serving for manually filtering out false positives; and
 4. a CSV file organizing the output into a matrix format, where rows represent Matn IDs, columns denote text file names (books), and each cell signifies the count of matches.
 Furthermore, the code generates a heatmap image of this matrix, to provide an easy visual overview of the collected data.
+
+<div style="max-width: 75%;">
+  <img src="images/Heatmap.png" alt="Example Heatmap" style="width: 100%;">
+</div>
 
 ![Example Heatmap](images/Heatmap.png)
 The heatmap can be saved via a right-click on the image.
@@ -71,26 +79,47 @@ To effectively employ the MatnTracker tool, follow these steps:
      - CSV2: In this file, place all Matn IDs in the first row, and set text file names as column headers. This file will be used for reference.
      - Folder: the target corpus of cleaned plain text files in one folder
 3. Load Input Files: Load your CSV1 file at the specified input_csv_path.
+<div style="max-width: 75%;">
+  <img src="images/CSV1_Path.png" alt="Change CVS1 path here" style="width: 100%;">
+</div>
 <img src="images/CSV1_Path.png" width="400" alt="Change CVS1 path here">
 ![Change CVS1 path here](images/CSV1_Path.png)
 4. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
+<div style="max-width: 75%;">
+  <img src="images/Target_Directory.png" alt="Change directory path here" style="width: 100%;">
+</div>
 <img src="images/Target_Directory.png" width="400" alt="Change directory path here">
 ![Change directory path here](images/Target_Directory.png)
 5. DataFrame Initialization: Initialize a DataFrame with headers from CSV2 and populate it based on the provided dictionary of headers.
+<div style="max-width: 75%;">
+  <img src="images/CSV3_Path.png" alt="Change CVS2 path here" style="width: 100%;">
+</div>
 <img src="images/CSV3_Path.png" width="400" alt="Change CVS2 path here">
 ![Change CVS2 path here](images/CSV3_Path.png)
 6. Configure Output Paths: Customize the output file paths according to your preferences:
    - Adjust the paths for
      1. result_df.to_csv, result
+      <div style="max-width: 75%;">
+        <img src="images/Output1_Path.png" alt="Change Output1 path here" style="width: 100%;">
+      </div>
       <img src="images/Output1_Path.png" width="400" alt="Change Output1 path here">
       ![Change Output1 path here](images/Output1_Path.png)
      2. 2_csv_path
+      <div style="max-width: 75%;">
+        <img src="images/Output2_Path.png" alt="Change Output2 path here" style="width: 100%;">
+      </div>
       <img src="images/Output2_Path.png" width="400" alt="Change Output2 path here">
       ![Change Output2 path here](images/Output2_Path.png)
      3. output_csv_path
+      <div style="max-width: 75%;">
+        <img src="images/Output3_Path.png" alt="Change Output3 path here" style="width: 100%;">
+      </div>
       <img src="images/Output3_Path.png" width="400" alt="Change Output3 path here">
       ![Change Output3 path here](images/Output3_Path.png)
      4. sorted_output_csv_path
+      <div style="max-width: 75%;">
+        <img src="images/Output4_Path.png" alt="Change Output4 path here" style="width: 100%;">
+      </div>
       <img src="images/Output4_Path.png" width="400" alt="Change Output4 path here">
       ![Change Output4 path here](images/Output4_Path.png)
      to specify your desired locations for output files.
@@ -99,6 +128,9 @@ To effectively employ the MatnTracker tool, follow these steps:
 ## Data
 The text files that represent the target texts for this study were downloaded from the OpenITI, a corpus of digital Islamicate texts. The latest release of OpenITI contains 10,202 text files, each of which contains the full text of a work (whether it is a single-volume or multi-volume work). For some works, the corpus contains multiple versions (digitizations of distinct paper editions, distinct digitizations of the same edition, identical digitizations of the same edition). The 10,202 text files represent 6,236 distinct works, by 2,582 distinct authors.
 
+ <div style="max-width: 75%;">
+        <img src="images/OpenITI.png" alt="OpenITI corpus" style="width: 100%;">
+      </div>
 ![OpenITI corpus](images/OpenITI.png)
 
 
