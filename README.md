@@ -25,7 +25,7 @@ In the genres of hadith literature, a hadith is frequently commented on by the s
 1. The Ruling (Ḥukm): Here, scholars assess the soundness of the transmitter chain, identify weak or missing links, provide their judgment regarding the overall authenticity of the hadith, and reference other scholars' opinions and rulings.
 
 <div style="max-width: 75%;">
-  <img src="images/WhatIsAHadith.png" alt="Hadith=Isnad+Matn+Hukm" style="width: 100%;">
+  <img src="images/WhatIsAHadith.png" alt="Hadith=Isnad+Matn+Hukm" style="width: 75%;">
 </div>
 
 ![Hadith=Isnad+Matn+Hukm](images/WhatIsAHadith.png)
