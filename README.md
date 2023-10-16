@@ -45,7 +45,8 @@ The code generates four output files:
 4. a CSV file organizing the output into a matrix format, where rows represent Matn IDs, columns denote text file names (books), and each cell signifies the count of matches.
 Furthermore, the code generates a heatmap image of this matrix, to provide an easy visual overview of the collected data.
 
-![Example Heatmap](images/Heatmap.png)
+<img src="images/Heatmap.png" width="100" alt="Example Heatmap">
+
 
 The heatmap image can be saved via a right-click on the image.
 
