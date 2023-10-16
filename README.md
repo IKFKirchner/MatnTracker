@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Short Description](#short-description)
 - [Historical Background: What is a hadith?](#historical-background-what-is-a-hadith)
-- [My Project: Measuring textual authenticity](#my-project-measuring-textual-authenticity-a-computational-study-of-ibn-al-jawz%C4%ABs-d-1201-book-of-forgeries-kit%C4%81b-al-maw%E1%B8%8D%C5%AB%E1%B9%AD%C4%81t)
+- [My Project: Measuring textual authenticity](#my-project-measuring-textual-authenticity)
 - [Methodology and Code Description](#methodology-and-code-description)
 - [Installation](#installation)
 - [Usage](#usage)
