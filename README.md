@@ -71,7 +71,7 @@ To effectively employ the MatnTracker tool, follow these steps:
      - CSV2: In this file, place all Matn IDs in the first row, and set text file names as column headers. This file will be used for reference.
      - Folder: the target corpus of cleaned plain text files in one folder
 3. Load Input Files: Load your CSV1 file at the specified input_csv_path.
-<img src="images/CSV1_Path.png" width="200" alt="Change CVS1 path here">
+<img src="images/CSV1_Path.png" width="500" alt="Change CVS1 path here">
 ![Change CVS1 path here](images/CSV1_Path.png)
 5. Set the Corpus Directory: Configure the directory path to your collection of clean text files that serve as your target texts for this search.
 ![Change directory path here](images/Target_Directory.png)
