@@ -123,9 +123,9 @@ The text files that represent the target texts for this study were downloaded fr
 Wanna talk about my code? Open an issue and let me know!
 
 ## Acknowledgments
-The annotation work preceding this study was done in cooperation with my colleague Maroussia B. and supported by Tulaib Zafir and Nuh Elalaoui as part of the New Languages for NLP project at Princeton University between June 2021 and May 2022. It was organized and guided by the expert advice of Andrew Janco, Natalia Ermolaev, Toma Tasovac, David Lassner, Quinn Dombrowski, et al.
+The annotation work preceding this study was done in cooperation with my colleague Maroussia Bednarkiewicz and supported by Tulaib Zafir and Nuh Elalaoui as part of the New Languages for NLP project at Princeton University between June 2021 and May 2022. It was organized and guided by the expert advice of Andrew Janco, Natalia Ermolaev, Toma Tasovac, David Lassner, Quinn Dombrowski, et al.
 The OpenITI team, specifically Sarah Bowen Savant and Ryan Muthers, have also generously provided their feedback for this study.
-The ReadITI notebook used in the preprocessing of the input files was programmed by my much-valued colleague and friend, Maroussia B.
+The ReadITI notebook used in the preprocessing of the input files was programmed by my much-valued colleague and friend, Maroussia Bednarkiewicz.
 
 ## References
 - [RipGrep](https://github.com/BurntSushi/ripgrep): The RipGrep original code is on GitHub.
